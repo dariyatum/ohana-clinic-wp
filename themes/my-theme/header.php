@@ -11,7 +11,7 @@
 <body <?php body_class(); ?>>
   
 <header>
-<div class="nav__brand"><img src="https://i.ibb.co/Pz6KNytN/nav-brand.png" alt=""></div>
+<div class="nav__brand"><img src="https://i.ibb.co/6R0RqrKg/Chat-GPT-Image-Dec-25-2025-09-00-38-AM.png" alt=""></div>
 <?php wp_nav_menu(['theme_location'=>'primary']); ?>
 </header>
 <nav class="header">
