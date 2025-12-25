@@ -3,7 +3,7 @@
 <head><?php wp_head(); ?>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/nav2.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/nav.css">
-        <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/header-back.css">
+      <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/header-back.css">
     <link rel="stylesheet" href="/components/nav2.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
