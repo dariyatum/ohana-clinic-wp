@@ -81,6 +81,8 @@
   height: auto;
 }
 
+
+
 /* Responsive */
 @media (max-width: 900px) {
   .footer-content {
