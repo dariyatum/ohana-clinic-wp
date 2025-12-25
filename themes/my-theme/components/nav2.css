@@ -6,7 +6,7 @@
     --surface:#FCFBFC;
     --btn:#000;
     --green-btn:#8AAE27;
-    --main:#8AAE27;
+    --main:#2e4a70;
     --black-txt:#000;
     --white:#fff;
     --title:#000;
@@ -48,6 +48,9 @@ nav {
   cursor: pointer;
   color: var(--black-txt);
 }
+.icon:hover{
+  color: #cf8a40;;
+}
 
 .language {
   display: flex;
@@ -60,7 +63,7 @@ nav {
   width: 42px;
   height: 42px;
   border-radius: 50%;
-  border: 3px solid var(--green-btn);
+  border: 3px solid #2e4a70;
   object-fit: cover;
 }
 .avatar a{
@@ -69,7 +72,7 @@ nav {
 }
 .signup-btn{
   text-decoration: none;
-  background-color: var(--main); 
+  background-color: #2e4a70; 
   color: white;
   padding: 5px 7px;
   border-radius: 5px;
@@ -77,4 +80,7 @@ nav {
 .signup-btn a{
   text-decoration: none;
     color: white;
+}
+.signup-btn:hover{
+  background-color:#cf8a40;;
 }

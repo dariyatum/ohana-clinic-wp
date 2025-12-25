@@ -60,3 +60,6 @@ header{
 .menu li a{
 
 }
+.menu li a:hover{
+    color: #cf8a40;
+}
