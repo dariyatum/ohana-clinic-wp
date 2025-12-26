@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ===== HERO ===== */
+.hero {
+  background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)),
+              url("img/hero.jpg") center/cover no-repeat;
+  color: #fff;
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 8%;
+}
+
+.logo {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.phone-btn {
+  background: #4cafad;
+  padding: 10px 18px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 30px;
+}
+
+.hero-content {
+  max-width: 700px;
+  margin: 120px auto;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 2.6rem;
+  margin-bottom: 20px;
+}
+
+.primary-btn {
+  display: inline-block;
+  margin-top: 25px;
+  background: #4cafad;
+  padding: 14px 28px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 30px;
+}
+
+/* ===== SECTIONS ===== */
+section {
+  padding: 80px 8%;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2rem;
+  color: #2c7f80;
+}
+
+/* ===== NEWS ===== */
+.news ul {
+  max-width: 700px;
+  margin: auto;
+  list-style: disc;
+}
+
+/* ===== ABOUT ===== */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  gap: 30px;
+}
+
+.card {
+  background: #f7fafa;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+/* ===== MESSAGE ===== */
+.message {
+  background: #e9f6f5;
+  text-align: center;
+}
+
+/* ===== SERVICES ===== */
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px,1fr));
+  gap: 25px;
+}
+
+.service-box {
+  border: 1px solid #e0eeee;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+/* ===== GALLERY ===== */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  gap: 20px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+/* ===== CONTACT ===== */
+.contact-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 25px;
+  margin: 30px 0;
+}
+
+iframe {
+  width: 100%;
+  height: 300px;
+  border: none;
+  border-radius: 15px;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+  background: #2c7f80;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}

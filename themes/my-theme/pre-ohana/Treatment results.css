@@ -1,0 +1,216 @@
+/* ================= RESET ================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #333;
+  line-height: 1.7;
+}
+
+/* ================= GLOBAL ================= */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+section {
+  padding: 90px 0;
+}
+
+h1, h2, h3 {
+  color: #2c7f80;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* ================= HEADER ================= */
+.header {
+  background: #fff;
+  border-bottom: 1px solid #e6f2f1;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+nav a.active {
+  color: #2c7f80;
+  font-weight: bold;
+}
+
+.nav-btn {
+  background: #4cafad;
+  color: #fff;
+  padding: 10px 22px;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+/* ================= HERO ================= */
+.hero {
+  background: linear-gradient(rgba(44,127,128,.6), rgba(44,127,128,.6)),
+              url("img/results-hero.jpg") center/cover no-repeat;
+  color: #fff;
+  text-align: center;
+  padding: 140px 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.hero p {
+  margin-top: 10px;
+  font-size: 1.1rem;
+}
+
+/* ================= INTRO ================= */
+.intro p {
+  max-width: 750px;
+  margin: auto;
+  text-align: center;
+}
+
+/* ================= OVERVIEW ================= */
+.overview {
+  background: #f7fafa;
+}
+
+.overview-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px,1fr));
+  gap: 30px;
+}
+
+.overview-box {
+  background: #fff;
+  padding: 35px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,.05);
+}
+
+.number {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+/* ================= TABLE ================= */
+.table-box {
+  max-width: 700px;
+  margin: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 14px;
+  border-bottom: 1px solid #e6f2f1;
+  text-align: center;
+}
+
+th {
+  background: #e9f6f5;
+}
+
+.note {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 15px;
+}
+
+/* ================= QUALITY ================= */
+.quality-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px,1fr));
+  gap: 30px;
+}
+
+.quality-box {
+  background: #f7fafa;
+  padding: 35px;
+  border-radius: 20px;
+}
+
+/* ================= DISCLAIMER ================= */
+.disclaimer {
+  background: #fff6f6;
+  text-align: center;
+}
+
+.disclaimer p {
+  max-width: 800px;
+  margin: auto;
+}
+
+/* ================= CTA ================= */
+.cta {
+  background: #e9f6f5;
+  text-align: center;
+}
+
+.cta-btn {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 14px 36px;
+  background: #4cafad;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 30px;
+}
+
+/* ================= FOOTER ================= */
+.footer {
+  background: #2c7f80;
+  color: #fff;
+  text-align: center;
+  padding: 25px;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 900px) {
+  nav ul {
+    display: none;
+  }
+
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+}

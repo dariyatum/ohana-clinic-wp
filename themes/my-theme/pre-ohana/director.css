@@ -1,0 +1,204 @@
+/* ================= RESET ================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  color: #333;
+  background: #fff;
+  line-height: 1.7;
+}
+
+/* ================= GLOBAL ================= */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+section {
+  padding: 90px 0;
+}
+
+h1, h2, h3 {
+  color: #2c7f80;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* ================= HEADER ================= */
+.header {
+  background: #fff;
+  border-bottom: 1px solid #e6f2f1;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+nav a.active {
+  color: #2c7f80;
+  font-weight: bold;
+}
+
+.nav-btn {
+  background: #4cafad;
+  color: #fff;
+  padding: 10px 22px;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+/* ================= HERO ================= */
+.hero {
+  background: linear-gradient(rgba(44,127,128,.6), rgba(44,127,128,.6)),
+              url("img/director-hero.jpg") center/cover no-repeat;
+  color: #fff;
+  text-align: center;
+  padding: 140px 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+/* ================= PROFILE ================= */
+.profile-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 50px;
+  align-items: center;
+}
+
+.profile-image img {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,.1);
+}
+
+.title {
+  font-weight: bold;
+  color: #4cafad;
+  margin-bottom: 20px;
+}
+
+/* ================= MESSAGE ================= */
+.message {
+  background: #f7fafa;
+  text-align: center;
+}
+
+.message p {
+  max-width: 800px;
+  margin: 0 auto 20px;
+}
+
+/* ================= CAREER ================= */
+.career-list {
+  max-width: 700px;
+  margin: auto;
+  list-style: none;
+}
+
+.career-list li {
+  padding: 12px 0;
+  border-bottom: 1px solid #e6f2f1;
+}
+
+/* ================= MEMBERSHIPS ================= */
+.memberships {
+  background: #f7fafa;
+}
+
+.membership-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px,1fr));
+  gap: 30px;
+}
+
+.membership-box {
+  background: #fff;
+  padding: 30px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,.05);
+}
+
+/* ================= CLOSING ================= */
+.closing {
+  text-align: center;
+}
+
+.closing p {
+  max-width: 800px;
+  margin: auto;
+}
+
+/* ================= CTA ================= */
+.cta {
+  background: #e9f6f5;
+  text-align: center;
+}
+
+.cta-btn {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 14px 36px;
+  background: #4cafad;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 30px;
+}
+
+/* ================= FOOTER ================= */
+.footer {
+  background: #2c7f80;
+  color: #fff;
+  text-align: center;
+  padding: 25px;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 900px) {
+  nav ul {
+    display: none;
+  }
+
+  .profile-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+}

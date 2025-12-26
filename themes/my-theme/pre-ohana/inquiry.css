@@ -1,0 +1,222 @@
+/* ================= RESET ================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #333;
+  line-height: 1.7;
+}
+
+/* ================= GLOBAL ================= */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+section {
+  padding: 90px 0;
+}
+
+h1, h2, h3 {
+  color: #2c7f80;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* ================= HEADER ================= */
+.header {
+  background: #fff;
+  border-bottom: 1px solid #e6f2f1;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+nav a.active {
+  color: #2c7f80;
+  font-weight: bold;
+}
+
+.nav-btn {
+  background: #4cafad;
+  color: #fff;
+  padding: 10px 22px;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+/* ================= HERO ================= */
+.hero {
+  background: linear-gradient(rgba(44,127,128,.6), rgba(44,127,128,.6)),
+              url("img/inquiry-hero.jpg") center/cover no-repeat;
+  text-align: center;
+  color: #fff;
+  padding: 140px 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.hero p {
+  margin-top: 10px;
+  font-size: 1.1rem;
+}
+
+/* ================= INTRO ================= */
+.intro p {
+  max-width: 650px;
+  margin: auto;
+  text-align: center;
+}
+
+/* ================= FORM ================= */
+.form-section {
+  background: #f7fafa;
+}
+
+.inquiry-form {
+  background: #fff;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.05);
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 25px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group.full {
+  grid-column: span 2;
+}
+
+label {
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+label span {
+  color: #e63946;
+}
+
+input, select, textarea {
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid #dceeee;
+  font-size: 0.95rem;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: #4cafad;
+}
+
+/* ================= PRIVACY ================= */
+.privacy {
+  grid-column: span 2;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.9rem;
+}
+
+/* ================= SUBMIT ================= */
+.submit-btn {
+  grid-column: span 2;
+  margin-top: 20px;
+  padding: 16px;
+  background: #4cafad;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* ================= CONTACT INFO ================= */
+.contact-info {
+  background: #e9f6f5;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px,1fr));
+  gap: 30px;
+}
+
+.info-box {
+  background: #fff;
+  padding: 30px;
+  border-radius: 18px;
+  text-align: center;
+}
+
+/* ================= FOOTER ================= */
+.footer {
+  background: #2c7f80;
+  color: #fff;
+  text-align: center;
+  padding: 25px;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 768px) {
+  nav ul {
+    display: none;
+  }
+
+  .inquiry-form {
+    grid-template-columns: 1fr;
+    padding: 30px;
+  }
+
+  .form-group.full,
+  .privacy,
+  .submit-btn {
+    grid-column: span 1;
+  }
+
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+}
