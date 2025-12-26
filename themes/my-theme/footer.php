@@ -1,61 +1,73 @@
-<head>
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/footer.css">
+<footer class="site-footer">
+  <div class="container footer-content">
+    <div class="footer-left">
+      <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/footer.css">
+      <h2>Ohana clinic</h2>
+      <h4>Location</h4>
+      <p>〒170-0013<br>
+      Fujigi Bldg. 4F, 1-12-8 Higashi-Ikebukuro, Toshima-ku, Tokyo</p>
 
-</head>
-</main>
+      <h4>Medical Subjects</h4>
+      <p>Gynecologist</p>
 
-<footer class="footer">
-  <div class="footer-box">
+      <p class="footer-phone"><i class="fa-solid fa-phone"></i> 03-3987-3090</p>
+      <a href="#" class="btn-web-booking">WEB BOOKING</a>
+    </div>
 
-    <div class="subscribe">
-      <h2>Stay Connected, Stay Informed</h2>
-      <p>
-        Subscribe to receive exclusive updates, tips, and promotions straight to your inbox.
-        Join our community for expert advice and resources to support your care journey.
+    <div class="footer-right">
+      <table class="footer-schedule">
+        <thead>
+          <tr>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thu</th>
+            <th>Fri</th>
+            <th>Sat</th>
+            <th>Sundays and holidays</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Takehara Tanaka (guard)*1</td>
+            <td>Takehara</td>
+            <td>Takehara Muraki</td>
+            <td>Takehara</td>
+            <td>Takehara Muraki Ohashi Bridge*2</td>
+            <td>/</td>
+            <td>/</td>
+          </tr>
+          <tr>
+            <td>/</td>
+            <td>/</td>
+            <td>/</td>
+            <td>/</td>
+            <td>/</td>
+            <td>Takehara</td>
+            <td>Takehara</td>
+          </tr>
+          <tr>
+            <td>Takehara Sasaki</td>
+            <td>/</td>
+            <td>Takehara Muraki</td>
+            <td>/</td>
+            <td>Takehara Tokuoka</td>
+            <td>/</td>
+            <td>/</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p class="footer-note">
+          It will be a complete reservation system.
+          ※1 2nd and 4th Mondays
+          *2 2nd and 4th Fridays
+          * There are times when Director Takehara is absent on Monday afternoon.
       </p>
-
-      <form class="subscribe-form">
-        <input type="email" placeholder="Enter your email address here" required>
-        <button type="submit">➜</button>
-      </form>
     </div>
-
-    <div class="about">
-      <h3>ABOUT US</h3>
-      <p>
-        Hanse is your trusted Korean e-mart, where quality meets convenience.
-        We bring you premium groceries, authentic snacks, and everyday Korean essentials
-        — fresh, fast, and affordably. Our goal is to make Korean flavors easily
-        accessible for everyone in Cambodia.
-      </p>
-    </div>
-
-    <div class="social">
-      <a href=""><i class="fa-brands fa-tiktok"></i></a>
-      <a href=""><i class="fa-brands fa-instagram"></i></a>
-      <a href=""><i class="fa-brands fa-x-twitter"></i></a>
-      <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-      <a href=""><i class="fa-brands fa-pinterest"></i></a>
-    </div>
-
-    <div class="location">
-      <a href="">STORE LOCATION</a>
-    </div>
-
-  </div>
-
-  <div class="copyright">
-    <p>© <?php echo date('Y'); ?> Hanse | copyright</p>
-  </div>
-  <div class="right">
-
   </div>
 </footer>
 
 <?php wp_footer(); ?>
 </body>
 </html>
-
-
-
-<!-- footer -->
