@@ -63,3 +63,46 @@ header{
 .menu li a:hover{
     color: #cf8a40;
 }
+/* Hide sub menu */
+.menu .sub-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    min-width: 220px;
+    padding: 10px 0;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    z-index: 999;
+}
+/* Main menu container */
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Menu items */
+.menu > li {
+    position: relative;
+}
+/* Show dropdown on hover */
+.menu li:hover > .sub-menu {
+    display: block;
+}
+.sub-menu li {
+    display: block;
+}
+
+.sub-menu li a {
+    display: block;
+    padding: 10px 20px;
+    color: #2e4a70;
+    text-decoration: none;
+}
+
+.sub-menu li a:hover {
+    background: #f0f2f2;
+}

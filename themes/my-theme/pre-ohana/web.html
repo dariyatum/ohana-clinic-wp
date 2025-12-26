@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Clinic Appointment Booking</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="web.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="header">
+    <h1>Clinic Appointment Booking</h1>
+    <p>Select a service, date, and time</p>
+  </div>
+
+  <div class="booking">
+
+    <!-- Services -->
+    <div class="services">
+      <h3>Services</h3>
+
+      <div class="service">
+        <strong>General Consultation</strong>
+        <span>30 minutes</span>
+      </div>
+
+      <div class="service">
+        <strong>Dental Checkup</strong>
+        <span>45 minutes</span>
+      </div>
+
+      <div class="service">
+        <strong>Follow-up Visit</strong>
+        <span>20 minutes</span>
+      </div>
+    </div>
+
+    <!-- Calendar -->
+    <div class="calendar">
+      <h3>Select Date</h3>
+
+      <div class="calendar-header">
+        <button>&lt;</button>
+        <span>January 2026</span>
+        <button>&gt;</button>
+      </div>
+
+      <div class="calendar-grid">
+        <div class="day-name">Sun</div>
+        <div class="day-name">Mon</div>
+        <div class="day-name">Tue</div>
+        <div class="day-name">Wed</div>
+        <div class="day-name">Thu</div>
+        <div class="day-name">Fri</div>
+        <div class="day-name">Sat</div>
+
+        <div class="date disabled">1</div>
+        <div class="date available">2</div>
+        <div class="date available">3</div>
+        <div class="date available">4</div>
+        <div class="date available">5</div>
+        <div class="date disabled">6</div>
+        <div class="date disabled">7</div>
+      </div>
+
+      <!-- Time Slots -->
+      <div class="time-slots">
+        <h3>Available Time</h3>
+        <div class="slots">
+          <div class="slot">09:00</div>
+          <div class="slot">10:00</div>
+          <div class="slot">11:00</div>
+          <div class="slot">14:00</div>
+          <div class="slot">15:00</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

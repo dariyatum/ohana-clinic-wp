@@ -16,23 +16,17 @@
 </header>
 <nav class="header">
   <div class="header-left">
-    <a href="<?php echo site_url('/cart-shipping'); ?>"><i class="fa-solid fa-cart-shopping icon"></i>
+    <a href="<?php echo site_url('/cart-shipping'); ?>"><i class="fa-solid fa-phone icon"></i>
     </a>
 <i class="fa-solid fa-moon icon"></i>
   </div>
 
   <div class="header-right">
-    <p class="signup-btn"><a class="a-of" href="<?php echo site_url('/sign-up'); ?>">sign up
-</a></p>
     <div class="language">
       <span>EN</span>
       <i class="fa-solid fa-globe icon"></i>
     </div>
 
-    <div class="avatar">
-      <a class="a-of" href="<?php echo site_url('/customer-account'); ?>">
-<img src="https://i.pravatar.cc/40" alt="User"></a>
-    </div>
   </div>
 </nav>
 <main>
