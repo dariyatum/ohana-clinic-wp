@@ -8,18 +8,19 @@
   </head>
   <body>
    
+  <div class="scroll">
 
+  </div>
    <div class="hero-content">
     <h1>Compassionate Fertility Care<br>With Advanced Medical Technology</h1>
     <p>
       We support every patient with warm communication, accurate diagnosis,
       and personalized fertility treatment.
     </p>
-    <a href="#contact" class="primary-btn">Book an Appointment</a>
   </div>
 </header>
 
-<!-- ================= NEWS ================= -->
+
 <section class="news">
   <h2>Announcements</h2>
   <ul>
@@ -29,49 +30,81 @@
   </ul>
 </section>
 
-<!-- ================= ABOUT ================= -->
 <section id="about" class="about">
-  <h2>Why Choose Keiai Clinic</h2>
+  <h2>Our strengths</h2>
 
   <div class="cards">
     <div class="card">
-      <h3>Convenient Location</h3>
+      <h4 class="iconss"><i class="fa-regular fa-clock"></i></h4>
+      <h3 class="titlee">Easy to commute while working</h3>
       <p>
-        Just a 1-minute walk from Ikebukuro Sta
-tion Exit 35,
-        making regular visits easy and stress-free.
+       Close to the station. Open from 8am to 8pm (Monday, Wednesday and Friday)
       </p>
+      <a href="" class=" icons">learn more</a>
     </div>
 
     <div class="card">
-      <h3>Proven Results</h3>
+        <h4 class="iconss"><i class="fa-regular fa-clock"></i></h4>
+      <h3 class="titlee">Overwhelming
+experience and pregnancy results</h3>
       <p>
-        High pregnancy success rates with frozen blastocyst transfer
-        based on recent clinical data.
+        Pregnancy rate from 2022 to 2023:
+63.2% (frozen blastocyst transfer)
       </p>
+            <a href="" class=" icons">learn more</a>
     </div>
 
     <div class="card">
-      <h3>Consistent Medical Care</h3>
+        <h4 class="iconss"><i class="fa-regular fa-clock"></i></h4>
+      <h3 class="titlee">Examination by the same doctor</h3>
       <p>
-        Patients are treated by the same physician throughout the treatment,
-        ensuring trust and continuity.
+       There is no difference in the treatment plan or explanation given by the doctor.
       </p>
+            <a href="" class=" icons">learn more</a>
     </div>
   </div>
 </section>
 
-<!-- ================= MESSAGE ================= -->
-<section class="message">
-  <h2>Our Philosophy</h2>
-  <p>
-    At Keiai Clinic, we believe fertility treatment should be supportive,
-    transparent, and positive. We walk together with our patients,
-    combining medical expertise and heartfelt care.
-  </p>
+
+<section class="message-section">
+  <div class="message-container">
+
+
+    <div class="message-text">
+      <span class="message-label">— MESSAGE</span>
+
+      <h2 class="message-title">
+        <span class="gold">Warm medical care</span> and<br>
+        <span class="light">New technologies</span><span class="dark">provides</span>
+      </h2>
+
+      <p class="message-desc">
+        Our clinic's philosophy is "More friendly infertility treatment" and it is our hope
+        that patients, doctors, and staff can communicate and become friendly with each other
+        to make infertility treatment, which can often be a gloomy experience, more cheerful.
+        We also incorporate new tests, treatments, and techniques that are thought to be effective,
+        and all staff members will do their best to support as many patients as possible so that
+        they can have children.
+      </p>
+
+      <a href="#" class="message-btn">
+        Director introduction →
+      </a>
+    </div>
+
+    <div class="message-image">
+      <img src="https://i.ibb.co/HpxZWvcf/Gemini-Generated-Image-agaas6agaas6agaa.png" alt="Director Yuji Takehara">
+
+      <div class="image-label">
+        Director <strong>Kenn Chhai</strong>
+      </div>
+    </div>
+
+  </div>
 </section>
 
-<!-- ================= SERVICES ================= -->
+
+
 <section id="services" class="services">
   <h2>Medical Services</h2>
 
@@ -98,7 +131,7 @@ tion Exit 35,
   </div>
 </section>
 
-<!-- ================= GALLERY ================= -->
+
 <section id="gallery" class="gallery">
   <h2>Clinic Gallery</h2>
   <div class="gallery-grid">
@@ -108,7 +141,7 @@ tion Exit 35,
   </div>
 </section>
 
-<!-- ================= CONTACT ================= -->
+
 <section id="contact" class="contact">
   <h2>Access & Booking</h2>
 
@@ -130,11 +163,12 @@ tion Exit 35,
       1 minute walk from Ikebukuro Station Exit 35
     </div>
   </div>
-
-  <iframe
-    src="https://maps.google.com/?q=東京都豊島区東池袋1-12-8&output=embed"
-    loading="lazy"></iframe>
 </section>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d250151.1627713307!2d104.72537401721212!3d11.579654008640548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2skh!4v1766804351171!5m2!1sen!2skh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
 
 
 <?php get_footer();?>
+
+

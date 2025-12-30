@@ -1,0 +1,114 @@
+.reservation-section {
+  background: #ffffff;
+  padding: 30px;
+}
+
+h2 {
+  color: #2e4a70;
+  margin-bottom: 20px;
+}
+
+.controls {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.control label,
+.date-control label {
+  font-size: 13px;
+  display: block;
+  margin-bottom: 6px;
+}
+
+select {
+  padding: 8px;
+  min-width: 200px;
+}
+
+.date-nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.next-btn {
+  border: 1px solid #ccc;
+  background: #fff;
+  cursor: pointer;
+}
+
+.view-toggle button {
+  padding: 8px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-outline {
+  border: 1px solid #2e4a70;
+  background: transparent;
+  color: #2e4a70;
+}
+
+.btn-active {
+  background: #2e4a70;
+  color: #fff;
+  border: none;
+}
+
+.legend {
+  margin: 20px 0;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.tag {
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.tentative { background: #ffffff; }
+.full { background: #cf8a40; color: #fff; }
+.wait { background: #2e4a70}
+
+.schedule {
+  border: 1px solid #ccc;
+  overflow-x: auto;
+}
+
+.schedule-header,
+.row {
+  display: grid;
+  grid-template-columns: 80px repeat(7, 1fr);
+}
+
+.schedule-header {
+  background: #f4f4f4;
+  font-weight: bold;
+}
+
+.day {
+  padding: 10px;
+  text-align: center;
+}
+
+.day.active {
+  background: #2e4a70;
+  color: #fff;
+}
+
+.time {
+  padding: 10px;
+  background: #ffffff;
+}
+
+.cell {
+  height: 45px;
+  border-top: 1px dashed #ddd;
+}
+.wait{
+  color: white;
+}
